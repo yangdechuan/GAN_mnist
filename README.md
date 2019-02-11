@@ -8,7 +8,6 @@ A PyTorch Implementation of [Generative Adversarial Network](https://arxiv.org/a
 ## Using 
 ```
 python main.py
-
 ```
 
 ```
