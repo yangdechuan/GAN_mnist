@@ -5,6 +5,16 @@ A PyTorch Implementation of [Generative Adversarial Network](https://arxiv.org/a
 * pytorch
 * tensorboardX
 
+## Using 
+```
+python main.py
+
+```
+
+```
+tensorboard --logdir log
+```
+
 ## Training examples
 
 ![read_images](fig/real_images.png)
