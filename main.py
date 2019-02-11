@@ -120,7 +120,6 @@ def main():
             # Back propagation and optimize.
             d_loss = d_loss_real + d_loss_fake
             d_optimizer.zero_grad()
-            g_optimizer.zero_grad()
             d_loss.backward()
             d_optimizer.step()
 
@@ -135,7 +134,6 @@ def main():
             g_loss = criterion(out, real_labels)
 
             # Back propagation and optimize.
-            d_optimizer.zero_grad()
             g_optimizer.zero_grad()
             g_loss.backward()
             g_optimizer.step()
